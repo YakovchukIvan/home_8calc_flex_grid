@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section {
+    display: flex;
+    gap: 100px;
+}
+
+.calculator {
+    max-width: 350px;
+    max-height: 700px;
+    background-color: rgb(5, 34, 58);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px 0;
+}
+.calculator__white {
+    background-color: #FAFAFA;
+}
+
+.top__panel {
+    background: #0c0c0c;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.top__white-panel {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.top__panel > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.result__panel {
+    text-align: right;
+}
+
+.result__white-panel {
+    color: #000;
+}
+
+.equation__text {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 75px 15px 0 15px;
+}
+
+.result__text {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px 15px;
+}
+.click__panel {
+    border: 2px solid rgb(44, 95, 161);
+    background-color: rgb(3, 27, 47);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px 10px;
+}
+
+.click__white-panel {
+    background-color: #E9F6FE;
+    border: none;
+}
+
+.click__panel > p {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px 15px;
+    padding: 15px 25px;;
+}
+
+.click__white-panel > p {
+    color: #000;
+}
+
+.click__panel>p:active {
+    transform: scale(0.90);
+}
+.click__panel > p:nth-child(1), span {
+    color: tomato;
+}
+.click__panel>p:nth-child(2) {
+    color: darkcyan;
+}
+.click__panel>p:nth-child(4) {
+    color: darkcyan;
+}
+.click__panel>p:nth-child(8) {
+    color: darkcyan;
+}
+.click__panel>p:nth-child(12) {
+    color: darkcyan;
+}
+.click__panel>p:nth-child(16) {
+    color: darkcyan;
+}
+.click__panel>p:nth-child(20) {
+    color: darkcyan;
+}
