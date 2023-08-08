@@ -23,7 +23,7 @@ btnStart.onclick = function () {
   }
 
   let remainingLetters = word.length;
-  let attempts = 2;
+  let attempts = 10;
   
 
 
